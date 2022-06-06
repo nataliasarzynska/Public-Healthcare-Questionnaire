@@ -1,0 +1,108 @@
+body {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    background: #000000;
+    background-image: linear-gradient(-45deg,  #BEE3DB,  #71aca9);
+    color: rgba(255, 255, 255, 0.571);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgba(237, 237, 237, 0.86);
+    font-style: bold;
+}
+
+.rb-box {
+    width: 90%;
+    max-width: 820px;
+    margin: 50px auto;
+    padding: 1.3em;
+    background: #356d6a;
+    border-radius: .75em;
+    -webkit-filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    box-shadow: 
+    0 3px 2px #000000
+    0 0px 5px #009586,
+    0 0px 4px rgba(0,0,0,.35),
+    0 5px 20px rgba(66, 242, 255, 0.25),
+    0 15px 50px rgba(116, 234, 255, 0.75),
+    inset 0 0 15px rgba(255,255,255,.05);;
+  }
+
+.text {
+    text-align: justify;
+    color: #2b5856;
+    width: 90%;
+    max-width: 820px;
+    margin: 50px auto;
+    padding: 1.3em;
+    background: #d4efed;
+    border-radius: .75em;
+    -webkit-filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    filter: drop-shadow(1px 2px 5px rgba(0,0,0,.3));
+    box-shadow: 
+      0 2px 2px #000000
+      0 0px 5px #009586,
+      0 0px 4px rgba(0,0,0,.35),
+      0 5px 20px rgba(66, 242, 255, 0.25),
+      0 15px 50px rgba(116, 234, 255, 0.75),
+      inset 0 0 15px rgba(255,255,255,.05);
+}
+
+.question {
+    font-size: .9em;
+    color: aliceblue;
+
+}
+
+.button-box {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+button {
+    display: inline-block;
+    width: 80%;
+    margin-top: 1.2em;
+    padding: 1em;
+    max-width: 220px;
+    font-size: 1em;
+    color: #08b5aa;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .15em;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 5em;
+    box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+    transition: 
+      color 0.6s, 
+      box-shadow 0.3s, 
+      transform 0.3s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0 3px 5px -5px rgba(0, 0, 0, 0.3);
+    color: #6f6f6f;
+  }
+
+  textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
